@@ -1,4 +1,9 @@
 PODS:
+  - AFeedly (0.0.1):
+    - AFNetworking (~> 1.0)
+    - hpple (~> 0.2)
+    - JSONModel (~> 0.13)
+    - LROAuth2Client (~> 0.0)
   - AFNetworking (1.3.4)
   - ASIHTTPRequest (1.8.2):
     - ASIHTTPRequest/ASIWebPageRequest
@@ -13,19 +18,31 @@ PODS:
     - Reachability
   - ASIHTTPRequest/S3 (1.8.2):
     - ASIHTTPRequest/Core
+  - hpple (0.2.0)
+  - JSONModel (0.13.0)
+  - LROAuth2Client (0.0.1)
   - OpenWeatherMapAPI (0.0.5):
     - AFNetworking (~> 1.3.1)
   - Reachability (3.1.1)
   - SVPullToRefresh (0.4.1)
 
 DEPENDENCIES:
+  - AFeedly (from `https://github.com/alkimake/AFeedly.git`)
   - ASIHTTPRequest (~> 1.8)
   - OpenWeatherMapAPI (~> 0.0)
   - SVPullToRefresh (~> 0.4)
 
+EXTERNAL SOURCES:
+  AFeedly:
+    :git: https://github.com/alkimake/AFeedly.git
+
 SPEC CHECKSUMS:
+  AFeedly: 58b481826d65518f761389ad7f9e015907a51354
   AFNetworking: 80c4e0652b08eb34e25b9c0ff3c82556fe5967b4
   ASIHTTPRequest: 2c8335b49410c0e2ad42829c438e74d454b77590
+  hpple: f4eb7c21a8db83ec264e5d614ec7509e10e5adec
+  JSONModel: 62ea96b49ea18a8b91ef89c249dba291d8601d82
+  LROAuth2Client: 0a03b8107597dbb3de32bc887e677a03221e076e
   OpenWeatherMapAPI: dba532198d083cae09089adbdbaf2831a8fc0c66
   Reachability: 8e9635e3cb4f98e7f825e51147f677ecc694d0e7
   SVPullToRefresh: d5161ebc833a38b465364412e5e307ca80bbb190

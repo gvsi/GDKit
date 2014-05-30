@@ -1,0 +1,1 @@
+../../AFeedly/Source/Models/AFResult.h
