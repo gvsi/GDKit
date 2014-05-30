@@ -4,7 +4,7 @@
 //
 //  Created by Giovanni Alcantara on 14/04/14.
 //  Copyright (c) 2014 Giovanni Alcantara. All rights reserved.
-//  Commit test
+//  Commit test 2
 
 #import "ViewController.h"
 #import "BTGlassScrollView.h"
